@@ -1,0 +1,9 @@
+<div style="text-align:center">
+  <h1>
+    My To Do List
+  </h1>
+  <ul *ngFor="let todo of todos">
+    <li>{{todo.name}}</li>
+  </ul>
+</div>
+<router-outlet></router-outlet>
